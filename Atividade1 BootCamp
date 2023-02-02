@@ -9,8 +9,8 @@ inicio
 repita
 
       escreval("|------------------------------|")
-      escreval("|1 - Quilometro para metros    |")
-      escreval("|2 - Litros para Metros cubicos|")
+      escreval("|1 - Quilômetro para metros    |")
+      escreval("|2 - Litros para Metros cúbicos|")
       escreval("|Aperte Esc para sair          |")
       escreval("|------------------------------|")
       leia(opMenu)
@@ -19,17 +19,17 @@ repita
       escolha opMenu
 
               caso 1
-                   escreval("Quantos quilometros serao comvertidos para metros?")
+                   escreval("Quantos quilômetros serao comvertidos para metros?")
                    leia(quantKm)
                    quantM <- quantKm * (1000/1)
                    escreval(quantKm, " sao ", quantM, "metros.")
                    escreval("")
                    
               caso 2
-                   escreval("Quantos litros serao covertidos para metros cubicos?")
+                   escreval("Quantos litros serao covertidos para metros cúbicos?")
                    leia(quantL)
                    quantMC <- quantL * (1/1000)
-                   escreval(quantL, " sao ", quantMC, " metros cubicos.")
+                   escreval(quantL, " sao ", quantMC, " metros cúbicos.")
                    escreval("")
               
       fimescolha
