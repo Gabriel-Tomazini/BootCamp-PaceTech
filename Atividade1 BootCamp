@@ -23,6 +23,7 @@ repita
                    quantM <- quantKm * (1000/1)
                    escreval(quantKm, " sao ", quantM, "metros.")
                    escreval("")
+                   
               caso 2
                    escreval("Quantos litros serao covertidos para metros cubicos?")
                    leia(quantL)
