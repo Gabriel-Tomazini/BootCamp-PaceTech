@@ -1,0 +1,36 @@
+algoritmo "semnome"
+var
+
+quantM, quantKm, quantL, quantMC, aux : real
+opMenu : inteiro
+
+inicio
+
+repita
+      escreval("|------------------------------|")
+      escreval("|1 - Quilometro para metros    |")
+      escreval("|2 - Litros para Metros cubicos|")
+      escreval("|Aperte Esc para sair          |")
+      escreval("|------------------------------|")
+      leia(opMenu)
+      limpatela
+      
+      escolha opMenu
+
+              caso 1
+                   escreval("Quantos quilometros serao comvertidos para metros?")
+                   leia(quantKm)
+                   quantM <- quantKm * (1000/1)
+                   escreval(quantKm, " sao ", quantM, "metros.")
+                   escreval("")
+              caso 2
+                   escreval("Quantos litros serao covertidos para metros cubicos?")
+                   leia(quantL)
+                   quantMC <- quantL * (1/1000)
+                   escreval(quantL, " sao ", quantMC, " metros cubicos.")
+                   escreval("")
+              
+      fimescolha
+
+fimrepita
+fimalgoritmo
